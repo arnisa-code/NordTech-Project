@@ -1,0 +1,18 @@
+column,dtype,missing_values,missing_%,num_unique,example_value,transformations
+betyg,float64,1412,51.03,5,2.0,Allowed to remain missing (review field).
+recensionsdatum,str,1412,51.03,442,2025-01-12,Allowed to remain missing (review field).
+recension_text,str,1412,51.03,45,Stämmer inte överens med produktbeskrivningen.,Allowed to remain missing (review field). Used later for sentiment.
+region,str,155,5.6,36,Uppsala,Filled missing with 'Unknown' (optional field).
+betalmetod,str,116,4.19,14,Kort,Filled missing with 'Unknown' (optional field).
+leveransstatus,str,94,3.4,14,Levererad,Filled missing with 'Unknown' (optional field).
+kund_id,str,0,0.0,1644,KND-53648,No change
+kundtyp,str,0,0.0,12,Privat,No change
+order_id,str,0,0.0,1657,ORD-2024-00001,No change
+orderrad_id,str,0,0.0,2700,ORD-2024-00001-1,No change
+antal,str,0,0.0,22,1,Converted to numeric (errors='coerce'). Used for revenue.
+kategori,str,0,0.0,5,Tillbehör,No change
+produktnamn,str,0,0.0,17,Webbkamera HD,No change
+produkt_sku,str,0,0.0,17,SKU-WC001,No change
+leveransdatum,str,0,0.0,544,2024-05-22,Converted to datetime (errors='coerce'). Used for lead_time_days.
+orderdatum,str,0,0.0,536,2024-05-19,Converted to datetime (errors='coerce'). Used for time analysis & features.
+pris_per_enhet,str,0,0.0,76,SEK 799,Converted to numeric (errors='coerce'). Used for revenue.
