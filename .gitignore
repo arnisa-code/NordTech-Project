@@ -214,3 +214,5 @@ __marimo__/
 
 # Mac system files
 .DS_Store
+# Ignore raw datasets
+data/raw/
